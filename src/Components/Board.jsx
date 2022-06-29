@@ -1,8 +1,8 @@
-import React from 'react';
-import Square from './Square';
+import React from "react";
+import Square from "./Square.jsx";
 
 const Board = ({ board, handleSquareClick, winningSquares }) => {
-  const renderSquare = position => {
+  const renderSquare = (position) => {
     const isWinningSquare = winningSquares.includes(position);
 
     return (
