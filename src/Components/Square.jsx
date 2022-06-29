@@ -1,9 +1,9 @@
 import React from "react";
 
 //object destructing
-function square({ value }) {
+function square({ value, onClick }) {
   return (
-    <button type="button" className="square">
+    <button type="button" className="square" onClick={onClick}>
       {value}
     </button>
   );
