@@ -14,6 +14,8 @@ const Board = ({ board, handleSquareClick, winningSquares }) => {
     );
   };
 
+  //done
+
   return (
     <div className="board">
       <div className="board-row">
